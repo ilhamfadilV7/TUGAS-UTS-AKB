@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info Aplikasi"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/versi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="versi 1.0"
+        android:layout_below="@id/info1"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:id="@+id/dibuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dibuat pada tanggal 06/07/2021 20:00"
+        android:layout_below="@id/versi"
+        android:textSize="25sp"
+        />
+
+</RelativeLayout>
